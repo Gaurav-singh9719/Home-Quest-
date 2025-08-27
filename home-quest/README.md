@@ -80,9 +80,9 @@ http://localhost:3000
 
 For now, login is simulated (using dummy credentials):
 
-1.Owner Login
+1. Owner Login
 
-    a .Email: owner@rentrover.com
+    a. Email: owner@example.com
 
     b. Password: owner123
 
@@ -90,7 +90,7 @@ For now, login is simulated (using dummy credentials):
 
 2. Tenant Login
 
-    a. Email: tenant@rentrover.com
+    a. Email: tenant@example.com
 
     b. Password: tenant123
 
