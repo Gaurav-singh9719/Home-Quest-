@@ -2,127 +2,89 @@
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
-  font-family: Arial, sans-serif;
-}
-
-/* Heading */
-.owner-dashboard h2 {
   text-align: center;
-  margin-bottom: 2rem;
 }
 
-/* Add Property Form */
 .add-property-form {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
   margin-bottom: 2rem;
+  display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
-.add-property-form input,
-.add-property-form button {
-  padding: 0.6rem 1rem;
+.add-property-form input {
+  padding: 0.6rem;
   border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
+  border-radius: 5px;
 }
 
 .add-property-form button {
-  background: #27ae60;
+  padding: 0.6rem 1.2rem;
+  background: #3498db;
   color: white;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s;
 }
 
-.add-property-form button:hover {
-  background: #219150;
-}
-
-/* My Properties Section */
 .my-properties {
   margin-top: 2rem;
 }
 
-.my-properties h3 {
-  margin-bottom: 1rem;
-}
-
 .property-card {
-  background: white;
-  border-radius: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
   padding: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
+  background: #fff;
+  text-align: left;
 }
 
-.property-card:hover {
-  transform: translateY(-2px);
+.property-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
 }
 
-.property-card h4 {
-  margin: 0;
-  color: #2980b9;
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.property-card p {
-  margin: 0.3rem 0;
-}
-
-/* Tenant Requests Section */
 .tenant-requests {
   margin-top: 2rem;
-  padding: 1rem;
-  background: #f9f9f9;
-  border-radius: 10px;
-}
-
-.tenant-requests h3 {
-  margin-bottom: 1rem;
 }
 
 .request-card {
-  background: white;
-  padding: 1rem;
+  border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
   margin-bottom: 1rem;
-}
-
-.request-card span {
-  font-weight: bold;
-}
-
-.request-actions {
-  margin-top: 0.5rem;
+  background: #f9f9f9;
+  text-align: left;
 }
 
 .request-actions button {
-  padding: 0.4rem 1rem;
+  padding: 0.5rem 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 0.9rem;
-  margin-right: 0.5rem;
-  transition: 0.3s;
+  margin: 0 0.3rem;
 }
 
-.request-actions button:first-child {
+.accept-btn {
   background: #2ecc71;
   color: white;
 }
 
-.request-actions button:first-child:hover {
-  background: #27ae60;
-}
-
-.request-actions button:last-child {
+.reject-btn {
   background: #e74c3c;
   color: white;
-}
-
-.request-actions button:last-child:hover {
-  background: #c0392b;
 }
